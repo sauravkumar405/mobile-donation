@@ -1,0 +1,136 @@
+header{
+    height:100px;
+    width:100%;
+    text-align: center;
+    /* background-color: #FFFFFF; */
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+}
+#phrase{
+    text-align: center;
+font: normal normal normal 32px/46px Flood Std;
+
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+margin:auto;
+width: 80%;
+margin-bottom: 0px;
+background-color: black;
+}
+#middle{
+
+    background-image: url('https://public-v2links.adobecc.com/a75faa97-2d9f-401c-6140-8fac4a6601aa/component?params=component_id%3Ae2962a99-d6a9-4e52-adef-4dd68874834f&params=version%3A0&token=1629972856_da39a3ee_b83fafcac8447bb404b277ee51c3d481450c0b9b&api_key=CometServer1') ;
+
+}
+.form{ 
+    width:80%;
+    margin: auto;
+    background-color: #354463;
+    opacity:100%;
+}
+.form > form{
+    margin:30px;
+}
+.form h2{ padding-top: 50px;
+
+}
+.form h2,label{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+}
+label{
+    display:block;
+    margin: 10px;;
+    font: normal normal normal 13px Helvetica;
+    letter-spacing: 0.44px;
+    opacity: 1;
+    height: 100%;
+}
+#sa{
+    width:100%;
+}
+input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 2px #C1F7D5 solid ;
+    font-size: 15px;
+    opacity:70%;
+    color:#FFFFFF;
+    margin-left: 8px;;
+}
+.form > form >p{
+    color:white;
+    font: normal normal bold 22px Helvetica;
+}
+.form > form >a{
+    display:block;
+    margin:10px;
+    color:#C1F7D5;
+}
+.form > form >button{
+    height:40px;
+    width:200px;
+    border-radius: 30px;
+    background-color:#C1F7D5;
+    margin: auto;
+    margin-left: 25px;
+}
+.form> form> a{
+    margin-bottom:20px;
+}
+
+footer{
+    /* border:5px solid black; */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 50px;
+
+}
+#footer1{
+    text-align: left;
+font: normal normal bold 18px/22px Helvetica;
+letter-spacing: 0px;
+color: #354463;
+opacity: 1;
+}
+
+#footer2 > h5{
+    text-align: left;
+font: normal normal 300 14px/20px Helvetica;
+letter-spacing: -0.14px;
+color: #354463;
+opacity: 1;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+#address{
+    text-align: left;
+font: normal normal 300 14px/20px Helvetica;
+letter-spacing: -0.14px;
+color: #354463;
+opacity: 1;
+}
+.footer-list{
+    text-align: left;
+font: normal normal normal 11px/13px Helvetica;
+letter-spacing: 0.44px;
+color: #354463;
+opacity: 1;
+}
+.footer-list> ul{
+    
+    padding-left: 0px;
+    text-align: left;
+text-decoration: underline;
+list-style-type: none;
+font: normal normal 300 14px/24px Helvetica;
+letter-spacing: -0.14px;
+color: #354463;
+opacity: 1;
+
+}
