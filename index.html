@@ -1,92 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Donation</title>
+    <meta name="viewport" content="width=q, initial-scale=1.0">
+    <title>Tablet Donation</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <header>
-        <h2>The Green </h2>
-        <h2>Trees Initiative</h2>
+
+<body class="body">
+    <header class="header">
+        <div>The Green<br>Trees Initiative</div>
     </header>
-    <div id="middle">
-        <div id="phrase">
-            GIVE HOPE TO THOSE WHO NEED IT MOST
-        </div>
+
+    <main class="main">
+
         <div class="form">
-            <form >
-                <h2>Your information</h2>
-                <label id="fname">FIRST NAME</label>
-                <input type="text" placeholder="First name">
+            <h3>Your Information</h3>
+            <form id="first-form">
 
-                <label id="lname">LAST NAME</label>
-                <input type="text" placeholder="Last name">
+                <div class="ff1">
+                    <label id="fname">FIRST NAME</label>
+                    <input type="text" placeholder="First name">
+                </div>
 
-                <label id="sa">STREET ADDRESS</label>
-                <input type="text" placeholder="Street address">
+                <div class="ff2">
+                    <label id="lname">LAST NAME</label>
 
-                <label>CITY</label>
-                <input type="text" placeholder="City name">
+                    <input type="text" placeholder="Last name">
+                </div>
 
-                <label>STATE</label>
-                <select name="cars" id="cars">
-                    <option value="atlanta">AL</option>
-                    
+                <div class="ff3">
+                    <label id="sa">STREET ADDRESS</label>
+                    <input type="text" placeholder="Street address">
+                </div>
 
-                <label>ZIP CODE</label>
-                <input type="number" placeholder="Zip">
+                <div class="ff4">
+                    <label>CITY</label>
+                    <input type="text" placeholder="City name">
+                </div>
 
-                <label>EMAIL ADDRESS</label>
-                <input type="email" placeholder="Email address">
+                <div class="ff5">
+                    <label>STATE</label>
+                    <select name="cars" id="cars">
+                        <option value="atlanta">AL</option>
+                </div>
 
-                <h2>Payment information</h2>
+                <div class="ff6">
+                    <label>ZIP CODE</label>
+                    <input type="number" placeholder="Zip">
+                </div>
 
-                <label>CREDIT CARD NUMBER</label>
-                <input type="email" placeholder="Credit card number">
-
-                <label>SECURITY CODE</label>
-                <input type="email" placeholder="CVC">
-
-                <p>Click the button to confirm your donation of $10, recurring monthly.</p>
-
-                <button>Process Payment</button>
-                <a href="#">Go back</a>
+                <div class="ff7">
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" placeholder="Email address">
+                </div>
 
             </form>
+            <h3>Payment Information</h3>
+            <form id="second-form">
 
-            
+                <div>
+                    <label for="">
+                        CREDIT CARD NUMBER
+                    </label>
+                    <input type="text" placeholder="Credit card number">
+                </div>
+                <div>
+                    <label for="">
+                        EXPIRATION
+                    </label>
+                    <input type="text" placeholder="MM">
+                    <input type="text" placeholder="YYYY">
+                </div>
+                <div>
+                    <label for="">
+                        SECURITY CODE
+                    </label>
+                    <input type="text">
+                </div>
+            </form>
+            <h3>Click the button to confirm your donation of $10, recurring monthly</h3>
+            <Button>Proceed Payment</Button>
         </div>
-        
-    </div>
-    <footer>
-        <div id="footer1">The Green <br>Trees<br> Initiative</div>
+        <div class="phrase">GIVE HOPE <br> TO THOSE <br> WHO NEED <br> IT MOST
+
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div id="footer1">
+            The Green<br> Trees Initiative
+        </div>
 
         <div id="footer2">
-            <h5>Contact</h5>
-            <p id="address">123 Anywhere St. City name, NY  11206 (123) 456-7890 contact@npo.org</p>
+            <div class="footer2">
+                <h4>Contact us</h4>
+                <p>123 Anywhere St.</p>
+                <p>Cityname, NY 11206</p>
+                <p>(123) 456-7890</p>
+                <p>contact@google</p>
+            </div>
+            <div class="footer2">
+                <h4>Links</h4>
+                <p>The issue</p>
+                <p>How we help</p>
+                <p>Get involved</p>
+                <p>Latest news</p>
+            </div>
+            <div class="footer2">
+                <h4>Follow</h4>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Medium</p>
+            </div>
+
+        </div>
+        <div id="footer3">#STOP <br> CLIMATE <br> CHANGE
+
         </div>
 
-        <div id="footer3" class="footer-list">FOLLOW US
-            <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Medium</li>
-            </ul>
-        </div>
-
-        <div id="footer4" class="footer-list">LEARN MORE
-        <ul>
-            <li>The issue</li>
-            <li>How we help</li>
-            <li>Get involved</li>
-            <li>Latest news</li>
-        </ul>
-        </div>
     </footer>
+
 </body>
+
 </html>
- 
