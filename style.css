@@ -1,3 +1,5 @@
+@media (max-width:378px){
+
 header{
     height:100px;
     width:100%;
@@ -133,4 +135,5 @@ letter-spacing: -0.14px;
 color: #354463;
 opacity: 1;
 
+}
 }
